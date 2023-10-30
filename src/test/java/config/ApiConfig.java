@@ -12,7 +12,4 @@ public interface ApiConfig extends Config {
 
         @Key("basePath")
         String getBasePath();
-
-        @Key("token")
-        String getToken();
 }
