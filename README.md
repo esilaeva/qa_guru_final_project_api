@@ -101,7 +101,7 @@
 
 ### Интеграция с Jira
 
-Интеграция `Allure TestOps` с `Jira`, позволяет отображать в [задаче](https://jira.autotests.cloud/browse/HOMEWORK-), открытой в `Jira`, какие тест-кейсы были написаны в
+Интеграция `Allure TestOps` с `Jira`, позволяет отображать в [задаче](https://jira.autotests.cloud/browse/HOMEWORK-930), открытой в `Jira`, какие тест-кейсы были написаны в
 рамках задачи и результат их выполнения.
 
 <img width="100%" title="Jira" src="src/test/resources/screenshorts/011-jira.png">
