@@ -56,8 +56,7 @@
 </p>
 
 ### Сборка в Jenkins
--------------------------------------------------------------------
-Для запуска сборки необходимо перейти на страницу проекта []()
+Для запуска сборки необходимо перейти на страницу проекта [qa_guru_21_final_project_api](https://jenkins.autotests.cloud/job/qa_guru_21_final_project_api/)
 в `Jenkins`, далее в раздел `Собрать с параметрами`, выбрать необходимые параметры и нажать
 кнопку `Собрать`.
 #### Параметры сборки:
@@ -73,31 +72,30 @@
 </p>
 
 ### Интеграция с Allure Report
----------------------------------------------------------------
-При удаленном запуске тестов в `Jenkins`, автоматически генерируется [Allure Report]()
+При удаленном запуске тестов в `Jenkins`, автоматически генерируется [Allure Report](https://jenkins.autotests.cloud/job/qa_guru_21_final_project_api/6/allure/)
 
-##### [Overview](/#)
+##### [Overview](https://jenkins.autotests.cloud/job/qa_guru_21_final_project_api/6/allure/#)
 
 <img width="100%" title="Allure Report" src="src/test/resources/screenshorts/004-allureReport.png">
 
-##### [Test details]()
+##### [Test details](https://jenkins.autotests.cloud/job/qa_guru_21_final_project_api/6/allure/#behaviors)
 
 <img width="100%" title="Allure Report" src="src/test/resources/screenshorts/008-allureReport.png">
 
 ### Интеграция с Allure TestOps
 
-В отчете [Allure TestOps]() можно:
+В отчете [Allure TestOps](https://allure.autotests.cloud/project/3751/launches) можно:
 
 - просматривать созданные тест-кейсы и чек-листы,
 - запускать ручные и автоматические тестовые прогоны,
 - заводить дефекты,
 - собирать статистику о проделанной работе.
 
-##### [Allure TestOps Dashboard]()
+##### [Allure TestOps Dashboard](https://allure.autotests.cloud/project/3751/dashboards)
 
 <img width="100%" title="Allure TestOps" src="src/test/resources/screenshorts/009-testOps_dashboards.png">
 
-##### [Ручные и автоматические тест-кейсы]()
+##### [Ручные и автоматические тест-кейсы](https://allure.autotests.cloud/project/3751/test-cases?treeId=0)
 
 <img width="100%" title="Allure TestOps" src="src/test/resources/screenshorts/010-testOps_testCase.png">
 
