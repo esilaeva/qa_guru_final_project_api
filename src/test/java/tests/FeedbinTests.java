@@ -1,6 +1,7 @@
 package tests;
 
 import io.qameta.allure.Feature;
+import io.qameta.allure.Story;
 import io.restassured.common.mapper.TypeRef;
 import io.restassured.response.Response;
 import models.*;
@@ -24,6 +25,7 @@ public class FeedbinTests extends TestBase {
 
     @CsvFileSource(resources = "/credentials.csv")
     @ParameterizedTest(name = "Positive auth")
+    @Story("Authentication")
     @Tag("positive")
     public void successfulAuthTest(String user, String password) {
        Response response = step("Make authentication request", () ->
@@ -43,6 +45,7 @@ public class FeedbinTests extends TestBase {
 
     @CsvFileSource(resources = "/negative_credentials_wrong_email.csv")
     @ParameterizedTest(name = "Negative auth {0}")
+    @Story("Authentication")
     @Tag("negative")
     public void negativeAuthWrongEmailTest(String user, String password) {
         Response response = step("Make authentication request", () ->
@@ -62,6 +65,7 @@ public class FeedbinTests extends TestBase {
 
     @CsvFileSource(resources = "/negative_credentials_wrong_password.csv")
     @ParameterizedTest(name = "Negative auth {0}")
+    @Story("Authentication")
     @Tag("negative")
     public void negativeAuthWrongPasswordTest(String user, String password) {
         Response response = step("Make authentication request", () ->
@@ -107,6 +111,7 @@ public class FeedbinTests extends TestBase {
 
     @CsvFileSource(resources = "/credentials.csv")
     @ParameterizedTest(name = "Get tags")
+    @Story("Tags")
     @Tag("positive")
     public void getTagsTest(String user, String password) {
         ArrayList<TagsModel> response = step("Make get tags request", () ->
@@ -128,8 +133,9 @@ public class FeedbinTests extends TestBase {
 
     @CsvFileSource(resources = "/credentials.csv")
     @ParameterizedTest(name = "Create tag")
+    @Story("Tags")
     @Tag("positive")
-    public void renameTagTest(String user, String password) {
+    public void createTagTest(String user, String password) {
         int i = (int) System.currentTimeMillis() / 1000;
         TagsBodyModel tagsBody = new TagsBodyModel();
         tagsBody.setFeedId(2754496);
@@ -154,6 +160,7 @@ public class FeedbinTests extends TestBase {
 
     @CsvFileSource(resources = "/credentials.csv")
     @ParameterizedTest(name = "Delete tag")
+    @Story("Tags")
     @Tag("positive")
     public void deleteTagTest(String user, String password) {
         int i = (int) System.currentTimeMillis() / 1000;
