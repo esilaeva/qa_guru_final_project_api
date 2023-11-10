@@ -1,7 +1,36 @@
-# Idea
-.idea
-*.idl
+##############################
+## Java
+##############################
+.mtj.tmp/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
 
-# Gradle
+##############################
+## Gradle
+##############################
+bin/
+build/
 .gradle
-build
+.gradletasknamecache
+gradle-app.setting
+!gradle-wrapper.jar
+
+##############################
+## IntelliJ
+##############################
+out/
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
+
+##############################
+## OS X
+##############################
+.DS_Store

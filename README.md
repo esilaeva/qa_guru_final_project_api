@@ -74,11 +74,11 @@
 ### Интеграция с Allure Report
 При удаленном запуске тестов в `Jenkins`, автоматически генерируется [Allure Report](https://jenkins.autotests.cloud/job/qa_guru_21_final_project_api/allure/)
 
-##### [Overview](https://jenkins.autotests.cloud/job/qa_guru_21_final_project_api/6/allure/#)
+##### [Overview](https://jenkins.autotests.cloud/job/qa_guru_21_final_project_api/allure/#)
 
 <img width="100%" title="Allure Report" src="src/test/resources/screenshorts/004-allureReport.png">
 
-##### [Test details](https://jenkins.autotests.cloud/job/qa_guru_21_final_project_api/6/allure/#behaviors)
+##### [Test details](https://jenkins.autotests.cloud/job/qa_guru_21_final_project_api/allure/#behaviors)
 
 <img width="100%" title="Allure Report" src="src/test/resources/screenshorts/008-allureReport.png">
 
