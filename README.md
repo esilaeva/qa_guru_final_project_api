@@ -9,7 +9,7 @@
 > Хорошее место для чтения в сети.  
 > Следите за своими увлечениями с помощью RSS, рассылок по электронной почте, подкастов и YouTube.
 
-### Содержание
+## [Содержание](#Содержание)
 [Технологии и инструменты](#Технологии-и-инструменты)  
 [Реализованные проверки](#Реализованные-проверки)  
 [Локальный запуск тестов из терминала](#Локальный-запуск-тестов-из-терминала)  
@@ -62,6 +62,8 @@
     </a>
 </p>
 
+[Назад к содержанию](#Содержание)
+
 ### Реализованные проверки
 - Успешная/неуспешная авторизация пользователя
 - Создание новой записи
@@ -69,34 +71,45 @@
 - Создание нового тега
 - Удаление тега
 
+[Назад к содержанию](#Содержание)
+
 ### Локальный запуск тестов из терминала
 `gradle clean test`
 
-### Сборка в Jenkins
+[Назад к содержанию](#Содержание)
+
+### Сборка в [Jenkins](https://jenkins.autotests.cloud/job/qa_guru_21_final_project_api/)
 Для запуска сборки необходимо перейти на страницу проекта [qa_guru_21_final_project_api](https://jenkins.autotests.cloud/job/qa_guru_21_final_project_api/)
 в `Jenkins`, далее в раздел `Build with Parameters`, выбрать необходимые параметры и нажать
 кнопку `Build`.
 
-<p>
-<img width="100%" title="Jenkins" src="src/test/resources/screenshorts/006-jenkins.png">
-<img width="100%" title="Jenkins" src="src/test/resources/screenshorts/007-jenkins.png">
+<p align="center">
+    <img width="100%" title="Jenkins" src="src/test/resources/screenshorts/006-jenkins.png">
+    <img width="100%" title="Jenkins" src="src/test/resources/screenshorts/007-jenkins.png">
 </p>
 
-### Интеграция с Allure Report
-При удаленном запуске тестов в `Jenkins`, автоматически генерируется [Allure Report](https://jenkins.autotests.cloud/job/qa_guru_21_final_project_api/allure/)
+[Назад к содержанию](#Содержание)
+
+### Интеграция с [Allure Report](https://jenkins.autotests.cloud/job/qa_guru_21_final_project_api/allure/)
+При удаленном запуске тестов в `Jenkins`, автоматически генерируется `Allure Report`
 
 ##### [Overview](https://jenkins.autotests.cloud/job/qa_guru_21_final_project_api/allure/#)
 
-<img width="100%" title="Allure Report" src="src/test/resources/screenshorts/004-allureReport.png">
+<p align="center">
+    <img width="100%" title="Allure Report" src="src/test/resources/screenshorts/004-allureReport.png">
+</p>
 
 ##### [Test details](https://jenkins.autotests.cloud/job/qa_guru_21_final_project_api/allure/#behaviors/5778946ce3195933e780791617eb6bb7/7cfd74cd081d7033/)
 
-<img width="100%" title="Allure Report" src="src/test/resources/screenshorts/008-allureReport.png">
+<p align="center">
+    <img width="100%" title="Allure Report" src="src/test/resources/screenshorts/008-allureReport.png">
+</p>
 
-### Интеграция с Allure TestOps
+[Назад к содержанию](#Содержание)
 
-В отчете [Allure TestOps](https://allure.autotests.cloud/project/3751/test-cases/26872?treeId=0) можно:
+### Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/3751/test-cases/26872?treeId=0)
 
+В отчете `Allure TestOps` можно:
 - просматривать созданные тест-кейсы и чек-листы,
 - запускать ручные и автоматические тестовые прогоны,
 - заводить дефекты,
@@ -104,22 +117,35 @@
 
 ##### [Allure TestOps Dashboard](https://allure.autotests.cloud/project/3751/dashboards)
 
-<img width="100%" title="Allure TestOps" src="src/test/resources/screenshorts/009-testOps_dashboards.png">
+<p align="center">
+    <img width="100%" title="Allure TestOps" src="src/test/resources/screenshorts/009-testOps_dashboards.png">
+</p>
 
 ##### [Ручные и автоматические тест-кейсы](https://allure.autotests.cloud/project/3751/test-cases?treeId=0)
 
-<img width="100%" title="Allure TestOps" src="src/test/resources/screenshorts/010-testOps_testCase.png">
+<p align="center">  
+    <img width="100%" title="Allure TestOps" src="src/test/resources/screenshorts/010-testOps_testCase.png">
+</p>
 
-### Интеграция с Jira
+[Назад к содержанию](#Содержание)
 
-Интеграция `Allure TestOps` с `Jira`, позволяет отображать в [задаче](https://jira.autotests.cloud/browse/HOMEWORK-930), открытой в `Jira`, какие тест-кейсы были написаны в
-рамках задачи и результат их выполнения.
+### Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-930)
 
-<img width="100%" title="Jira" src="src/test/resources/screenshorts/011-jira.png">
+Интеграция `Allure TestOps` с `Jira`, позволяет отображать в [задаче](https://jira.autotests.cloud/browse/HOMEWORK-930),
+созданной в `Jira`, какие тест-кейсы были написаны в рамках задачи и результат их выполнения.
+
+<p align="center">
+    <img width="100%" title="Jira" src="src/test/resources/screenshorts/011-jira.png">
+</p>
+
+[Назад к содержанию](#Содержание)
 
 ### Уведомление в Telegram
 
 После завершения сборки, автоматически отправляется отчет о результатах выполнения тестов в специально созданный `Telegram канал`.
 
-<img width="40%" title="Jira" src="src/test/resources/screenshorts/005-telegram.png">
+<p align="center">
+    <img width="40%" title="Jira" src="src/test/resources/screenshorts/005-telegram.png">
+</p>
 
+[Назад к содержанию](#Содержание)
