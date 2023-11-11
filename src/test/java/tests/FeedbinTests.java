@@ -127,7 +127,7 @@ public class FeedbinTests extends TestBase {
                         }));
 
         step("Verify response", () -> {
-            assertEquals(7331154, response.get(response.size() - 1).getId());
+            assertEquals(7334798, response.get(response.size() - 1).getId());
         });
     }
 
