@@ -22,7 +22,7 @@
 
 ### Технологии и инструменты
 
-Автотесты написаны на языке `Java` с использованием `JUnit 5`, `Selenide`. Сборщик проекта - `Gradle`. Для удаленного запуска реализована задача в `Jenkins` с формированием `Allure-отчета` и
+Автотесты написаны на языке `Java` с использованием `JUnit 5`, `Selenide`, `Rest-Assured`. Сборщик проекта - `Gradle`. Для удаленного запуска реализована задача в `Jenkins` с формированием `Allure-отчета` и
 отправкой результатов в `Telegram канал` при помощи бота. Так же осуществлена интеграция с `Allure TestOps` и `Jira`.
 
 <p>
@@ -37,6 +37,9 @@
     </a>
     <a href="https://junit.org/junit5/">
       <img width="7%" title="JUnit5" src="src/test/resources/icons/Junit5.svg">
+    </a>
+    <a href="https://rest-assured.io/">
+      <img width="7%" title="JUnit5" src="src/test/resources/icons/rest-assured.png">
     </a>
     <a href="https://github.com/">
       <img width="7%" title="GitHub" src="src/test/resources/icons/github-mark-white.svg">
