@@ -26,42 +26,42 @@
 отправкой результатов в `Telegram канал` при помощи бота. Так же осуществлена интеграция с `Allure TestOps` и `Jira`.
 
 <p>
-<a href="https://www.java.com/">
-  <img width="7%" title="Java" src="src/test/resources/icons/java-original.svg">
-</a>
-<a href="https://www.jetbrains.com/">
-  <img width="7%" title="IntelliJ IDEA" src="src/test/resources/icons/Idea.svg">
-</a>
-<a href="https://gradle.org/">
-  <img width="7%" title="Gradle" src="src/test/resources/icons/gradle-plain.svg">
-</a>
-<a href="https://junit.org/junit5/">
-  <img width="7%" title="JUnit5" src="src/test/resources/icons/Junit5.svg">
-</a>
-<a href="https://rest-assured.io/">
-  <img width="7%" title="JUnit5" src="src/test/resources/icons/rest-assured.png">
-</a>
-<a href="https://github.com/">
-  <img width="7%" title="GitHub" src="src/test/resources/icons/github-mark-white.svg">
-</a>
-<a href="https://selenide.org/">
-  <img width="7%" title="Selenide" src="src/test/resources/icons/Selenide.svg">
-</a>
-<a href="https://qameta.io/allure-report/">
-  <img width="7%" title="Allure Report" src="src/test/resources/icons/Allure.svg">
-</a>
-<a href="https://www.jenkins.io/">
-  <img width="7%" title="Jenkins" src="src/test/resources/icons/jenkins-original.svg">
-</a>
-<a href="https://telegram.org/">
-  <img width="7%" title="Telegram" src="src/test/resources/icons/Telegram.svg">
-</a>
-<a href="https://qameta.io/">
-  <img width="7%" title="Allure TestOps" src="src/test/resources/icons/Allure_TO.svg">
-</a>
-<a href="https://www.atlassian.com/software/jira">
-  <img width="7%" title="Jira" src="src/test/resources/icons/Jira.svg">
-</a>
+    <a href="https://www.java.com/">
+      <img width="7%" title="Java" src="src/test/resources/icons/java-original.svg">
+    </a>
+    <a href="https://www.jetbrains.com/">
+      <img width="7%" title="IntelliJ IDEA" src="src/test/resources/icons/Idea.svg">
+    </a>
+    <a href="https://gradle.org/">
+      <img width="7%" title="Gradle" src="src/test/resources/icons/gradle-plain.svg">
+    </a>
+    <a href="https://junit.org/junit5/">
+      <img width="7%" title="JUnit5" src="src/test/resources/icons/Junit5.svg">
+    </a>
+    <a href="https://rest-assured.io/">
+      <img width="7%" title="Rest Assured" src="src/test/resources/icons/rest-assured.png">
+    </a>
+    <a href="https://github.com/">
+      <img width="7%" title="GitHub" src="src/test/resources/icons/github-mark-white.svg">
+    </a>
+    <a href="https://selenide.org/">
+      <img width="7%" title="Selenide" src="src/test/resources/icons/Selenide.svg">
+    </a>
+    <a href="https://qameta.io/allure-report/">
+      <img width="7%" title="Allure Report" src="src/test/resources/icons/Allure.svg">
+    </a>
+    <a href="https://www.jenkins.io/">
+      <img width="7%" title="Jenkins" src="src/test/resources/icons/jenkins-original.svg">
+    </a>
+    <a href="https://telegram.org/">
+      <img width="7%" title="Telegram" src="src/test/resources/icons/Telegram.svg">
+    </a>
+    <a href="https://qameta.io/">
+      <img width="7%" title="Allure TestOps" src="src/test/resources/icons/Allure_TO.svg">
+    </a>
+    <a href="https://www.atlassian.com/software/jira">
+      <img width="7%" title="Jira" src="src/test/resources/icons/Jira.svg">
+    </a>
 </p>
 
 [Назад к содержанию](#Содержание)
