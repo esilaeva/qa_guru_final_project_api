@@ -104,8 +104,8 @@ public class FeedbinTests extends TestBase {
                         .extract().as(PagesResponseModel.class));
 
         step("Verify response", () -> {
-            assertEquals("4262240110", response.getId());
-            assertEquals("2754457", response.getFeedId());
+            assertEquals("4304305011", response.getId());
+            assertEquals("2778810", response.getFeedId());
         });
     }
 
@@ -127,7 +127,7 @@ public class FeedbinTests extends TestBase {
                         }));
 
         step("Verify response", () -> {
-            assertEquals(7334798, response.get(response.size() - 1).getId());
+            assertEquals(7390380, response.get(response.size() - 1).getId());
         });
     }
 
@@ -138,7 +138,7 @@ public class FeedbinTests extends TestBase {
     public void createTagTest(String user, String password) {
         int i = (int) System.currentTimeMillis() / 1000;
         TagsBodyModel tagsBody = new TagsBodyModel();
-        tagsBody.setFeedId(2754496);
+        tagsBody.setFeedId(2778810);
         tagsBody.setName("Tech" + i);
 
         TagsResponseModel response = step("Make create tag request", () ->
@@ -165,7 +165,7 @@ public class FeedbinTests extends TestBase {
     public void deleteTagTest(String user, String password) {
         int i = (int) System.currentTimeMillis() / 1000;
         TagsBodyModel tagsBody = new TagsBodyModel();
-        tagsBody.setFeedId(2754496);
+        tagsBody.setFeedId(2778810);
         String tag = "Tech" + i;
         tagsBody.setName(tag);
 
